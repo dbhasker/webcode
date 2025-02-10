@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASU ASCEND Software</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    header img {
+      height: 60px;
+      width: auto;
+    }
+    header h1 {
+      flex-grow: 1;
+      text-align: center;
+      font-size: 2em;
+      color: #0073e6;
+    }
+    p {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    p a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background: #0073e6;
+      color: #fff;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+    tr:hover {
+      background: #f1f1f1;
+    }
+    .semester {
+      text-align: left;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #777;
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+      header h1 {
+        margin: 10px 0;
+      }
+      th, td {
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="azsgcbanner_lg.png" alt="Project Logo">
+      <h1>ASU ASCEND Software</h1>
+      <img src="ASU-logo.png" alt="University Logo">
+    </header>
+
+    <p>ASU ASCEND website: <a href="https://asuascend.weebly.com/" target="_blank">https://asuascend.weebly.com/</a></p>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Semester</th>
+          <th>GitHub Repository</th>
+          <th>Documentation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="semester">2025 Spring</td>
+          <td><a href="https://github.com/ASU-ASCEND/Spring-2025" target="_blank">GitHub</a></td>
+          <td><a href="https://asu-ascend.github.io/Spring-2025/" target="_blank">Documentation</a></td>
+        </tr>
+        <tr>
+          <td class="semester">2024 Fall</td>
+          <td><a href="https://github.com/ASU-ASCEND/Fall-2024" target="_blank">GitHub</a></td>
+          <td><a href="https://asu-ascend.github.io/Fall-2024/" target="_blank">Documentation</a></td>
+        </tr>
+        <tr>
+          <td class="semester">2024 Spring</td>
+          <td><a href="https://github.com/ASU-ASCEND/AcademicYear-2023-24" target="_blank">GitHub</a></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="semester">2023 Fall</td>
+          <td><a href="https://github.com/ASU-ASCEND/AcademicYear-2023-24/tree/main/Fall2023" target="_blank">GitHub</a></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <footer>
+      <p>&copy; 2025 ASU ASCEND. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
